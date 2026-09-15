@@ -1,0 +1,78 @@
+# ---------------------------------------------------------------------------
+# CUMCM 2026 C题 —— 展示仓库
+#
+# 本仓库只收录最终成果：答案、论文、图表数据、结果汇总、程序源码。
+# 下列内容仍完整保留在本地导出目录中，只是不纳入本仓库。
+# ---------------------------------------------------------------------------
+
+# ---- 过程性材料（仅本地保留）----
+实验/
+核验依据/
+工具/
+操作.py
+运行.ps1
+使用说明.txt
+文件校验.json
+整理来源.json
+支撑材料文件列表.csv
+官方输入清单.json
+验收结果.json
+答案核验.json
+
+# ---- Office 临时与锁文件 ----
+~$*
+*.tmp
+*.temp
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---- 测试与类型检查缓存 ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- 编辑器与 IDE ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ---- 操作系统 ----
+.DS_Store
+._*
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ---- 归档产物 ----
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# ---- 本地运行输出 ----
+/output/
+/run_*/

@@ -1,0 +1,37 @@
+{
+  "model": "M1_D48",
+  "revision": "R2_20260912",
+  "period": [
+    "2025-02-01T00:00:00",
+    "2025-12-31T00:00:00"
+  ],
+  "complete_days": 334,
+  "slots": 48096,
+  "decision_count": 48430,
+  "lp_calls": 96526,
+  "secondary_attempted": 48096,
+  "secondary_accepted": 48096,
+  "secondary_fallback_count": 0,
+  "plan_cost": 12165142.97651713,
+  "emergency_cost": 2773706.7440706487,
+  "total_cost": 14938849.720587771,
+  "end_energy": 1235.264057167648,
+  "january_cost": 3130627.3752977396,
+  "annual_complete": true,
+  "two_day_verified": true,
+  "independent_audit_passed": false,
+  "independent_audit_scope": "pending separate replay",
+  "user_adopted": false,
+  "solver_status_counts": {
+    "0": 48430
+  },
+  "feasible_solutions": 48430,
+  "fallback_count": 0,
+  "invocation": {
+    "wall_s": 360.74873960000696,
+    "new_lp_calls": 31790,
+    "requested_days": 334,
+    "paused": false,
+    "error": null
+  }
+}

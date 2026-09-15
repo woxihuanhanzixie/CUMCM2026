@@ -1,0 +1,13 @@
+metric,value
+plan_cost_yuan,13244263.9272
+emg_cost_yuan,695189.609453
+total_cost_yuan,13939453.5367
+jan_cost_yuan,3130627.3753
+jan_plus_total_yuan,17070080.912
+unused_energy_kwh,2573485.64544
+total_charge_kwh,6277948.16163
+total_discharge_kwh,5093169.89541
+total_emergency_kwh,119746.209234
+min_E_kwh,1200
+max_E_kwh,10800
+year_end_E_kwh,1875.68389575

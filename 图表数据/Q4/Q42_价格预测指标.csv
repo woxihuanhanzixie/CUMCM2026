@@ -1,0 +1,3 @@
+﻿branch,samples,MAE,RMSE,unit,scope
+Q42/M0_P1,48096,0.04367507641405354,0.05917512608919502,yuan/kWh,2025 Feb-Dec midnight issued day-ahead predictions
+Q42/M0_P7,48096,0.04715118305056554,0.06534801504178886,yuan/kWh,2025 Feb-Dec midnight issued day-ahead predictions

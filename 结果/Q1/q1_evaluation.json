@@ -1,0 +1,175 @@
+{
+  "attachment": "C题/附件/附件1.xlsx",
+  "attachment_sha256": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377",
+  "eta_sensitivity": [
+    {
+      "eta_charge": 0.8,
+      "eta_discharge": 0.8,
+      "feasible": true,
+      "method": "LP",
+      "objective": 38223.65161906145,
+      "roundtrip_efficiency": 0.6400000000000001,
+      "scenario": "single_0.80",
+      "total_charge": 23644.154999999995,
+      "total_discharge": 15132.2592,
+      "total_purchase": 64053.86823333332
+    },
+    {
+      "eta_charge": 0.85,
+      "eta_discharge": 0.85,
+      "feasible": true,
+      "method": "LP",
+      "objective": 36603.40648002707,
+      "roundtrip_efficiency": 0.7224999999999999,
+      "scenario": "single_0.85",
+      "total_charge": 22295.505193771627,
+      "total_discharge": 16108.502502499998,
+      "total_purchase": 61728.97512460496
+    },
+    {
+      "eta_charge": 0.9,
+      "eta_discharge": 0.9,
+      "feasible": true,
+      "method": "LP",
+      "objective": 35126.948589289634,
+      "roundtrip_efficiency": 0.81,
+      "scenario": "single_0.90",
+      "total_charge": 20740.66613168725,
+      "total_discharge": 16799.939566666668,
+      "total_purchase": 59482.69899835391
+    },
+    {
+      "eta_charge": 0.95,
+      "eta_discharge": 0.95,
+      "feasible": true,
+      "method": "LP",
+      "objective": 33767.03262075283,
+      "roundtrip_efficiency": 0.9025,
+      "scenario": "single_0.95",
+      "total_charge": 19801.750433979694,
+      "total_discharge": 17871.07976666667,
+      "total_purchase": 57472.64310064636
+    },
+    {
+      "eta_charge": 1.0,
+      "eta_discharge": 1.0,
+      "feasible": true,
+      "method": "LP",
+      "objective": 32377.088240581663,
+      "roundtrip_efficiency": 1.0,
+      "scenario": "single_1.00",
+      "total_charge": 31660.492466666663,
+      "total_discharge": 31660.492466666667,
+      "total_purchase": 55541.97243333333
+    },
+    {
+      "eta_charge": 0.9486832980505138,
+      "eta_discharge": 0.9486832980505138,
+      "feasible": true,
+      "method": "LP",
+      "objective": 33801.495542222016,
+      "roundtrip_efficiency": 0.8999999999999999,
+      "scenario": "roundtrip_0.90",
+      "total_charge": 19842.710475501775,
+      "total_discharge": 17858.4394279516,
+      "total_purchase": 57526.24348088351
+    }
+  ],
+  "metrics": {
+    "average_cost_per_load_kwh": 0.31638828465842345,
+    "average_cost_per_purchased_kwh": 0.590540597195526,
+    "balance_residual_max": 2.2737367544323206e-13,
+    "benchmark_cost": 48052.046590846665,
+    "charge_discharge_loss": 3940.726565020581,
+    "charge_power_utilization_percent": 100.0,
+    "discharge_power_utilization_percent": 85.878364,
+    "four_hour_blocks": {
+      "block_1": {
+        "charge": 4499.999999999999,
+        "discharge": 0.0
+      },
+      "block_2": {
+        "charge": 833.3333333333333,
+        "discharge": 6365.8412
+      },
+      "block_3": {
+        "charge": 4787.964288065848,
+        "discharge": 1702.9969833333334
+      },
+      "block_4": {
+        "charge": 5286.0351769547315,
+        "discharge": 91.1013833333335
+      },
+      "block_5": {
+        "charge": 0.0,
+        "discharge": 5780.1318833333335
+      },
+      "block_6": {
+        "charge": 5333.333333333332,
+        "discharge": 2859.8681166666665
+      }
+    },
+    "max_charge_power": 5000.0,
+    "max_discharge_power": 4293.9182,
+    "mutual_exclusion_violation": 0.0,
+    "objective": 35126.948589289634,
+    "pv_utilization_percent": 100.0,
+    "runtime_seconds": 0.013329700006579515,
+    "saving_cost": 12925.098001557031,
+    "saving_percent": 26.898121762870154,
+    "soc_initial": 6000.0,
+    "soc_max": 10800.0,
+    "soc_max_binding_count": 21,
+    "soc_min": 1200.0,
+    "soc_min_binding_count": 8,
+    "soc_terminal": 6000.0,
+    "specified_purchase": {
+      "10:00-10:10": 0.0,
+      "12:00-12:10": 480.4124499999999,
+      "14:00-14:10": 0.0,
+      "16:00-16:10": 445.4316500000001,
+      "18:00-18:10": 531.8940499999999,
+      "20:00-20:10": 0.0
+    },
+    "state_residual_max": 8.313350008393172e-13,
+    "total_charge": 20740.66613168725,
+    "total_curtailment": 0.0,
+    "total_discharge": 16799.939566666668,
+    "total_load": 111024.8081,
+    "total_purchase": 59482.69899835391,
+    "total_pv": 55482.835666666666,
+    "zero_charge_intervals": 99,
+    "zero_discharge_intervals": 107,
+    "zero_purchase_intervals": 58
+  },
+  "soc_sensitivity": [
+    {
+      "feasible": true,
+      "initial_and_terminal_soc": 5400.0,
+      "method": "LP",
+      "objective": 35129.74858928963,
+      "total_charge": 20740.66613168725,
+      "total_discharge": 16799.939566666668,
+      "total_purchase": 59482.69899835391
+    },
+    {
+      "feasible": true,
+      "initial_and_terminal_soc": 6000.0,
+      "method": "LP",
+      "objective": 35126.948589289634,
+      "total_charge": 20740.66613168725,
+      "total_discharge": 16799.939566666668,
+      "total_purchase": 59482.69899835391
+    },
+    {
+      "feasible": true,
+      "initial_and_terminal_soc": 6600.0,
+      "method": "LP",
+      "objective": 35124.581922622965,
+      "total_charge": 20740.666131687245,
+      "total_discharge": 16799.939566666668,
+      "total_purchase": 59482.69899835391
+    }
+  ],
+  "status": "verified"
+}
